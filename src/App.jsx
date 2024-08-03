@@ -10,10 +10,10 @@ function App() {
       const result = evaluate(value)
       setValue(result)
     } catch (error) {
-      setValue('Error')
+      setValue('Give correct value')
       setTimeout(() => {
         setValue('')
-      }, 1000);
+      }, 2000);
     }
   }
 
